@@ -14,10 +14,10 @@ mongoose
 
 //create a cat
 Cat.create({
-  name: "Fuzzy",
-  age: 7,
-  color: "orange"
-})
+    name: "Fuzzy",
+    age: 7,
+    color: "orange"
+  })
   .then(newlyCreatedCat =>
     console.log(`Cat successfully created! ---> ${newlyCreatedCat}`)
   )
@@ -36,3 +36,5 @@ Cat.create({
 Cat.find()
   .then(responseFromDB => console.log("[][]][[]", responseFromDB))
   .catch(err => console.log(err));
+
+console.log("+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_")
